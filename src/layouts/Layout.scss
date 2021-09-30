@@ -1,0 +1,28 @@
+.sider__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.row-odd {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.menu-custom {
+  background: transparent;
+  border: transparent;
+  &.__submenu {
+    background: transparent;
+  }
+}
+.menu-custom__menu-item {
+  &:hover {
+    background: rgba(255, 255, 255, 0.23);
+    // background: red;
+  }
+}
+
+body {
+  overflow: overlay;
+  width: calc(100% - 17px);
+}
